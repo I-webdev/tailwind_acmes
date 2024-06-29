@@ -1,9 +1,6 @@
 {
-    "version":2,
-    "builds":[
-        {"src":"/views/index.html", "use":"@vercel/static-build"}
-    ],
-    "routes":[
-        {"src":"/(.*)", "dest":"./views/index.html"}
-    ]
+  "version": 2,
+  "public": true,
+  "builds": [{ "src": "views/index.html", "use": "@vercel/static-build" }],
+  "routes": [{ "src": "/(.*)", "dest": "/views/index.html" }]
 }
