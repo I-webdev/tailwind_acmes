@@ -644,6 +644,22 @@ video {
   transform-origin: top;
 }
 
+.origin-left {
+  transform-origin: left;
+}
+
+.origin-top-left {
+  transform-origin: top left;
+}
+
+.origin-center {
+  transform-origin: center;
+}
+
+.origin-bottom {
+  transform-origin: bottom;
+}
+
 @keyframes open-menu {
   0% {
     transform: scaleY(0);
